@@ -4,4 +4,4 @@ RUN apt-get update -yqq \
   && apt-get install -yqq --no-install-recommends build-essential nodejs libpq-dev cron git-crypt \
   && gem install bundler -v 2.1.4 \
   && gem cleanup \
-  && ap-get clean
+  && apt-get clean
